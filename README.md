@@ -12,13 +12,12 @@ Spróbujemy pracować ze środowiskiem Anaconda, która pozwala na wygodne i ró
 ```
 source ścieżka/do/katalogu/anacondy/bin/activate
 ```
-1. W efekcie działania tego polecenia terminal powinien zareagować zmianą perspektywy
+2. W efekcie działania tego polecenia terminal powinien zareagować zmianą perspektywy
 ```
 dyschemist@pkowalski-predator-helios:~$ source /opt/anaconda3/bin/activate 
 (base) dyschemist@pkowalski-predator-helios:~$ 
 ```
-
-Domyślnie uruchomione jest środowisko bazowe condy. Utworzymy środowisko wirtualne do działania
+3. Domyślnie uruchomione jest środowisko bazowe condy. Utworzymy środowisko wirtualne do działania
 
 ```
 conda create --name bd2022 python=3.10
@@ -26,7 +25,7 @@ conda create --name bd2022 python=3.10
 
 gdzie bd2022 jest nazwą własną, którą samemu możecie wybrać.
 
-pozostaje aktywować środowisko za pomocą komendy
+4. pozostaje aktywować środowisko za pomocą komendy
 
 ```
 conda activate [nazwa venv]
@@ -39,7 +38,7 @@ Co ponownie zmienia perspektywę według wzorca
 (bd2022) dyschemist@pkowalski-predator-helios:~$
 ```
 
-Później pozostaje zainstalować zależności według metody.
+5. Później pozostaje zainstalować zależności według metody.
 
 1. `cd` do katalogu głównego projektu
 1. przekazanie requirement.txt
