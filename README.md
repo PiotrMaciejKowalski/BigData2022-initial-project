@@ -39,8 +39,8 @@ Co ponownie zmienia perspektywę według wzorca
 ```
 
 5. Później pozostaje zainstalować zależności według metody.
-  1. `cd` do katalogu głównego projektu
-  2. przekazanie requirement.txt
+  - `cd` do katalogu głównego projektu
+  - przekazanie requirement.txt
 
 ```
 pip install -r requirements.txt 
