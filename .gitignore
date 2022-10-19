@@ -1,0 +1,4 @@
+*.pyc
+.vscode/*
+*.csv
+.pytest_cache/*
